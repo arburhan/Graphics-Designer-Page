@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Parts */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-image{
+    height: 327px;
+    width: 334px;
+}
+.card-image img{
+    width: 300px;
+    padding: 20px;
+    background-color: #F1F1F1;
+}
+.card-border{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+ul{
+    font-weight: 500;
+}
+.banner-text{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+.focus-text{
+    color: #FABE4C;
+}
+.button-buy-now{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color: #24ceb7;
+    padding: 15px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.button-buy-now:hover{
+    background-image: linear-gradient(90deg,rgb(12, 24, 176), rgb(127, 21, 181));
+    color: #ffffff;
+}
+
+/* header section */
+header{
+    height: 100vh;
+    background-color: #FFFBF0;
+}
